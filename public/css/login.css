@@ -1,0 +1,113 @@
+body {
+    background-image: url(https://www.onzedegenesis.com.br/wp-content/uploads/2018/02/business-office-morning-coffee-picjumbo-com.jpg);
+    background-size: 100%;
+  }
+  
+  :root {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    margin: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+  .container form {
+    background: rgba(26, 25, 25, 0.705);
+    border-radius: 8%;
+    padding: 3%;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(37, 37, 37, 0.445);
+    transition: all 2s;
+  }
+  .logo {
+    font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 12%;
+    color: white;
+  }
+  .container form input {
+    padding: 0 3%;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    border: 2px white;
+    height: 25px;
+    width: 250px;
+    align-self: center;
+  }
+  .container form #user {
+    margin-bottom: 25px;
+  }
+ 
+  .container form #password {
+    margin-bottom: 22px;
+  }
+  .container form button {
+    margin-bottom: 22px;
+    border-radius: 20px;
+    margin-top: 25px;
+    height: 20px;
+    width: 150px;
+    align-self: center;
+    transition: all 0.7s;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #38353559;
+  }
+  .container form input :focus {
+    box-shadow: 5 5 8px rgba(41, 40, 40, 0.808);
+  }
+  .cad {
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(206, 197, 197, 0.89);
+  }
+  .cad:hover {
+    color: #f8eded59;
+  }
+  @media (max-width: 600px) {
+    .logo {
+      font-size: 35px;
+    }
+    .container form {
+      width: 50%;
+    }
+    .container form input {
+      width: 80%;
+    }
+  }
+  @media screen {
+    .container form input {
+      width: 100%;
+    }
+  }
+  
+  .icon {
+    margin-bottom: 20px;
+    width: 105px;
+    height: 100px;
+    align-self: center;
+  }
+  .red-shadow {
+    box-shadow: 0 0 8px rgb(241, 34, 34);
+  }
+  span#err {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 10px;
+    color: rgb(230, 63, 63);
+  }
+ 
+  
